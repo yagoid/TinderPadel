@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/paleta4">
+
+    <LinearLayout
+        android:id="@+id/llFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_titulo"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/paleta2"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/comic_sans"/>
+
+        <EditText
+            android:id="@+id/etJugador1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_jugador_1"
+            android:fontFamily="@font/comic_sans"
+            android:backgroundTint="@color/paleta1"
+            android:textColorHint="@color/paleta1"
+            android:textColor="@color/paleta1"
+            android:gravity="center"
+            android:inputType="textCapWords"
+            android:layout_marginTop="30dp"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/etJugador2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_jugador_2"
+            android:fontFamily="@font/comic_sans"
+            android:backgroundTint="@color/paleta1"
+            android:textColorHint="@color/paleta1"
+            android:textColor="@color/paleta1"
+            android:gravity="center"
+            android:inputType="textCapWords"
+            android:layout_marginTop="20dp"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/etJugador3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_password"
+            android:fontFamily="@font/comic_sans"
+            android:backgroundTint="@color/paleta1"
+            android:textColorHint="@color/paleta1"
+            android:textColor="@color/paleta1"
+            android:imeActionLabel="Custom"
+            android:gravity="center"
+            android:inputType="textCapWords"
+            android:layout_marginTop="20dp"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/etJugador4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_jugador_3"
+            android:fontFamily="@font/comic_sans"
+            android:backgroundTint="@color/paleta1"
+            android:textColorHint="@color/paleta1"
+            android:textColor="@color/paleta1"
+            android:imeActionLabel="Custom"
+            android:gravity="center"
+            android:inputType="textCapWords"
+            android:layout_marginTop="20dp"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_start"
+            android:layout_marginTop="40dp"
+            android:background="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="@color/paleta1"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TinderPadel</string>
+    <string name="tv_titulo">Tinder Padel</string>
+    <string name="et_jugador_1">Jugador 1</string>
+    <string name="et_jugador_2">Jugador 2</string>
+    <string name="et_password">Jugador 3</string>
+    <string name="et_jugador_3">Jugador 4</string>
+    <string name="btn_start">START</string>
+    <string name="no_datos">Se deben rellenar todos los campos</string>
+    <string name="tv_volver">Volver</string>
+    <string name="tv_vs">VS</string>
+</resources>
